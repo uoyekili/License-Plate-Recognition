@@ -14,24 +14,31 @@ This project applies **Ultralytics YOLO** for license plate detection and a **Py
 ---
 
 ## Workflow
+
 ![](./assets/workflow.png)
 
 ---
 
 ## Results
 
-Comprehensive evaluation outputs are available in [`dataset_test/outputs`](./dataset_test/outputs).  
+Comprehensive evaluation outputs are available in [`dataset_test/outputs`](./dataset_test/outputs).
 Real-world test videos are available in [`videos`](./videos/), showcasing system performance under various conditions.
 
 Below are a few illustrative examples:
 
-| Input Image | Model Output |
-|-------------|--------------|
-| ![Sample 1](./dataset_test/images/carlong_0283.png) | ![Result](./dataset_test/outputs/carlong_0283.png) |
+| Input Image                                           | Model Output                                         |
+| ----------------------------------------------------- | ---------------------------------------------------- |
+| ![Sample 1](./dataset_test/images/carlong_0283.png)   | ![Result](./dataset_test/outputs/carlong_0283.png)   |
 | ![Sample 2](./dataset_test/images/greenpack_1210.png) | ![Result](./dataset_test/outputs/greenpack_1210.png) |
 
 ---
 
+## Dataset
+
+The dataset used in this project is available on Kaggle:
+https://www.kaggle.com/datasets/duydieunguyen/licenseplates
+
+---
 
 ## Usage
 
@@ -41,7 +48,7 @@ cd license-plate-recognition
 pip install -r requirements.txt
 ```
 
-Run the demo notebook demo.ipynb
+Run the demo notebook `demo.ipynb`.
 
 ---
 
@@ -54,13 +61,11 @@ Run the demo notebook demo.ipynb
 
 ## Contact
 
-- Gmail: [dungnguyen.workspace@gmail.com](mailto:dungnguyen.workspace@gmail.com)
-- LinkedIn: [https://www.linkedin.com/in/marknguyen02/](https://www.linkedin.com/in/marknguyen02/)
+* Gmail: [dungnguyen.workspace@gmail.com](mailto:dungnguyen.workspace@gmail.com)
+* LinkedIn: https://www.linkedin.com/in/marknguyen02/
 
 ---
 
 ## License
 
 Released under the MIT License.
-
-
