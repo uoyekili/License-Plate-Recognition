@@ -35,8 +35,8 @@ Below are a few illustrative examples:
 
 ## Dataset
 
-The dataset used in this project is available on Kaggle:
-https://www.kaggle.com/datasets/duydieunguyen/licenseplates
+The dataset used in this project: 
+[License Plates Dataset](https://www.kaggle.com/datasets/duydieunguyen/licenseplates)
 
 ---
 
